@@ -12,7 +12,7 @@ fps = 60
 timer = pygame.time.Clock()
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 
-picture = pygame.transform.scale(pygame.image.load('/Users/ethantrombley/Desktop/Images/IMG_7853.jpg'), (IWIDTH, IHEIGHT))
+picture = pygame.transform.scale(pygame.image.load('Enter Image Path name here'), (IWIDTH, IHEIGHT))
 
 run = True
 while run:
